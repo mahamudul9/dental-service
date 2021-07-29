@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = ({copyClass}) => {
     return (
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -20,13 +20,13 @@ const Navbar = () => {
                             <a class="nav-link" href="#">Dental Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Reviews</a>
+                            <a class={`nav-link ${copyClass}`} href="#">Reviews</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Blog</a>
+                            <a class={`nav-link ${copyClass}`} href="#">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contact Us</a>
+                            <a class={`nav-link ${copyClass}`} href="#">Contact Us</a>
                         </li>
                     </ul>
                 </div>
