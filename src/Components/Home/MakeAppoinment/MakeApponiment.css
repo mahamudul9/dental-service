@@ -1,0 +1,10 @@
+.appoinment{
+    background-color: #3a4256;
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+.appoinment-image{
+    transform: translateY(-120);
+    height: 400px;
+}

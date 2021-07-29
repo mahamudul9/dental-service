@@ -1,0 +1,17 @@
+.footer-container{
+    background-image: url('../../../images/pexels-gdtography-950241.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-container p{
+    color:gray;
+}
+.icons{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #1cc7c1;
+}
+.footer-container .icons:hover{
+    cursor: pointer;
+    color: #3a4256;
+}
